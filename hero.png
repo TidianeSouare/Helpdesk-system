@@ -1,0 +1,15 @@
+<template>
+  <div>
+    <AppNavbar />
+    <main class="container">
+      <router-view />
+    </main>
+    <footer class="site-footer">
+      Helpdesk Response Library · Developed by Tidiane
+    </footer>
+  </div>
+</template>
+
+<script setup>
+import AppNavbar from "./components/AppNavbar.vue";
+</script>
